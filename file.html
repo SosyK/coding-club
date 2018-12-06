@@ -19,13 +19,35 @@
          #transition:hover{
              height: 300px;
          }
-         		<div class="container"></div>
-		<div class="white"></div>
-		<a class="type" onmouseover="hideWhite();" onmouseout="showWhite();">HUSTLIN'</a>
-		<audio class="hustle" preload loop> 
- 			<source src="hustle.mp3">
-  			<source src="hustle.wav">
-		</audio>
+	       
+	       <style>
+  @-webkit-keyframes argh-my-eyes {
+    0%   { background-color: #fff; }
+    49% { background-color: #fff; }
+    50% { background-color: #000; }
+    99% { background-color: #000; }
+    100% { background-color: #fff; }
+  }
+  @-moz-keyframes argh-my-eyes {
+    0%   { background-color: #fff; }
+    49% { background-color: #fff; }
+    50% { background-color: #000; }
+    99% { background-color: #000; }
+    100% { background-color: #fff; }
+  }
+  @keyframes argh-my-eyes {
+    0%   { background-color: #fff; }
+    49% { background-color: #fff; }
+    50% { background-color: #000; }
+    99% { background-color: #000; }
+    100% { background-color: #fff; }
+  }
+  body {
+  -webkit-animation: argh-my-eyes 1s infinite;
+  -moz-animation:    argh-my-eyes 1s infinite;
+  animation:         argh-my-eyes 1s infinite;
+}
+</style>
          </style>
    </head>
    <body>
